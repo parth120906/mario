@@ -1,0 +1,152 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(mario.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+img{
+    width: 140px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    z-index: 1;
+    animation: mo 10s linear infinite;
+    
+}
+@keyframes mo{
+    0%{
+        transform: translateX(0px) ;
+        bottom: 25px;
+
+
+    }
+    22%{
+        bottom: 25px;
+    }
+    23%{
+        bottom: 100px;
+    }
+    24%{
+        bottom: 25px;
+    }
+
+    37%{
+        bottom: 25px;
+    }
+    38%{
+        bottom: 100px;
+    }
+    39%{
+        bottom: 25px;
+    }
+    
+    42%{
+        bottom: 25px;
+    }
+    43%{
+        bottom: 100px;
+    }
+    44%{
+        bottom: 25px;
+    }
+
+    100%{
+        transform: translateX(1500px);
+
+    }
+}
+
+      
+
+.bo{
+    height: 50px;
+    width:50px;
+    background-image: url("download-removebg-preview\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+}
+.box1{
+    position: absolute;
+    bottom: 152px;
+    left: 423px;
+    animation: jump 10s linear infinite;
+}
+@keyframes jump{
+0%{
+    transform: translateY(0px);
+}
+23%{
+    transform: translateY(0px);
+}
+24%{
+    transform: translateY(-50px);
+}
+25%{
+    transform: translateY(0px);
+}
+100%{
+    transform: translateY(0px);
+} 
+}
+
+.box2{
+    position: absolute;
+    bottom: 152px;
+    left: 635px;
+    animation: jump2 10s linear infinite;
+
+}
+@keyframes jump2{
+    0%{
+    transform: translateY(0px);
+}
+38%{
+    transform: translateY(0px);
+}
+39%{
+    transform: translateY(-50px);
+}
+40%{
+    transform: translateY(0px);
+}
+100%{
+    transform: translateY(0px);
+} }
+.box3{
+    position: absolute;
+    bottom: 152px;
+    left: 720px;
+    animation: jump3 10s linear infinite;
+
+}
+@keyframes jump3{
+    0%{
+    transform: translateY(0px);
+}
+43%{
+    transform: translateY(0px);
+}
+44%{
+    transform: translateY(-50px);
+}
+45%{
+    transform: translateY(0px);
+}
+100%{
+    transform: translateY(0px);
+} }
+.box4{
+    position: absolute;
+    bottom: 320px;
+    left: 679px;
+}
