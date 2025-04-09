@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/aseets/mario.jpg);
+    background-image: url(./assets/mario-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -68,7 +68,7 @@ img{
 .bo{
     height: 50px;
     width:50px;
-    background-image: url("/aseets/download-removebg-preview\ \(1\).png");
+    background-image: url(./assets/box.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
